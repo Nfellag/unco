@@ -1,0 +1,112 @@
+
+*{
+    margin : 0px;
+    padding : 0 px;
+}
+
+.fond{
+    background-position: center;
+    background-size: cover;
+    object-fit: scale-down;
+    background-repeat: no-repeat;
+    background-position: relative;
+    transition: all 0.2s ease-in;
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 80px;
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    color: white;
+
+}
+.titre{
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+.profile{
+
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    color:white; 
+    margin-top: 4px;
+} 
+
+.searchbar{
+
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    position: absolute;
+    
+    margin-top: 230px;
+    margin-left: 210px;
+    padding: 0px 20px;
+    height: 80px;
+    width: 900px;
+
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.34);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.recherche{
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.34);
+    border: 1px solid black;
+}
+
+.input1{
+    width: 40px;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.34);
+    border: 1px solid black;
+}
+
+.input2{
+    width: 110px;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.34);
+    border: 1px solid black;
+    margin : 10px;
+    position: center;
+    position: cover;
+}
+.input3{
+    width: 110px;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.34);
+    border: 1px solid black;
+    
+}
+.input4{
+    width : 40px;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.34);
+    border: 1px solid black;
+}
+.input5{
+
+    width : 90px;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.34);
+    border: 1px solid black;
+
+}
+
